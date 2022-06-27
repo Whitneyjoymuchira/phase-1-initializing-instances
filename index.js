@@ -26,3 +26,4 @@ class Dinner {
     }
 }
 
+let meal3 = Dinner("veggies", "tomatoes", "lasagna", "cake")

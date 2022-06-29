@@ -5,25 +5,24 @@ class Breakfast {
         this.drink = drink;
     }
 }
-let meal1 = Breakfast("eggs", "milk")
+let meal1 = Breakfast("eggs", "juice")
+
+
 
 class Lunch {
-    constructor(salad, soup, drink) {
-        this.salad = salad;
-        this.soup = soup;
-        this.drink = drink;
+    constructor(salad, soup,drink){
+        this.salad = salad,
+        this.soup = soup,
+        this.drink = drink
     }
 }
-
 
 class Dinner {
     #dessert
-    constructor(salad, soup, entree, dessert) {
-        this.salad = salad;
-        this.soup = soup;
-        this.entree = entree;
-        this.#dessert = dessert;
+    constructor(salad,soup,entree, dessert){
+        this.salad = salad,
+        this.soup = soup,
+        this.entree = entree,
+        this.#dessert = dessert
     }
-}
-
-let meal3 = Dinner("veggies", "tomatoes", "lasagna", "cake")
+} 
